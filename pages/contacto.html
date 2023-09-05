@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../img/logos/Favicon.png" type="image/png" />
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/f756a82c28.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/style.css" />
+  <title>LESCO</title>
+</head>
+
+<body>
+
+  <!--NAVBAR-->
+  <div class="sticky-top shadow-sm p-2 mb-5 bg-body-tertiary rounded">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../img/logos/sign-language.png" alt="logo"
+            style="height: 3rem" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavLightDropdown"
+          aria-controls="navbarNavLightDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavLightDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="../index.html"><span style="color: rgb(219, 169, 13)">Inicio</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="../pages/cursos.html"><span
+                  style="color: rgb(219, 169, 13)">Cursos</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="../pages/abcYNumeros.html"><span style="color: rgb(219, 169, 13)">ABC y
+                  Números</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="../pages/frasesSimples.html"><span style="color: rgb(219, 169, 13)">Frases
+                  Simples</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="../pages/contacto.html"><span
+                  style="color: rgb(219, 169, 13)">Contacto</span></a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-brands fa-facebook-f fa-lg"
+                style="color: rgb(219, 169, 13)"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-brands fa-twitter fa-lg" style="color: rgb(219, 169, 13)"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-brands fa-instagram fa-lg"
+                style="color: rgb(219, 169, 13)"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--END NAVBAR-->
+
+  <!--MAIN CONTENT-->
+  <div class="container-md mt-5 text-center">
+
+    <p class="text-center fs-1" id="item-1"><span style="color: rgb(219, 169, 13);">Contáctanos</span></p>
+    <img src="../img/correo.png" class="img-fluid rounded mb-3" alt="Contáctanos" style="height: 150px;">
+    <p class="text-center fs-5">
+      Te invitamos a empezar tu camino de aprendizaje de la LESCO y de la Cultura Sorda con nosotros.
+      Si tenés alguna duda, mandanos un mensaje y nos pondremos en contacto a la brevedad para evacuar cualquier
+      consulta.
+    </p>
+
+  </div>
+
+  <!--FORM-->
+  <div class="container bg-light shadow p-3 mb-5 bg-body-tertiary rounded"">
+    <form class=" needs-validation" id="form_sw" validate>
+    <div class="row g-3">
+      <div class="col-sm-6">
+        <label for="firstName" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="firstName" placeholder="Ramón" value="" required>
+        <div class="invalid-feedback">
+          Valid first name is required.
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="lastName" class="form-label">Apellido</label>
+        <input type="text" class="form-control" id="lastName" placeholder="González" value="" required>
+        <div class="invalid-feedback">
+          Valid last name is required.
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="hola@ejemplo.com" required>
+        <div class="invalid-feedback">
+          Please enter a valid email address.
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <label for="phone" class="form-label">Phone</label>
+        <input type="phone" class="form-control" id="phone" placeholder="2222-2222" required>
+        <div class="invalid-feedback">
+          Please enter a valid phone number.
+        </div>
+      </div>
+
+      <div class="col-sm-12">
+        <label for="Textarea2">Mensaje</label>
+        <textarea class="form-control" placeholder="Mensaje, comentarios, preguntas, dudas, otros..."
+          id="floatingTextarea2" style="height: 100px"></textarea>
+      </div>
+
+      <div class="col-12 text-center">
+        <button type="submit" class="btn btn-default active" style="color: rgb(219, 169, 13)">Enviar</button>
+      </div>
+      </form>
+    </div>
+  </div>
+  <!--END FORM-->
+
+  <!--END MAIN CONTENT-->
+
+  <!--FOOTER-->
+  <footer class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2023 LESCO</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacidad</a></li>
+      <li class="list-inline-item"><a href="#">Términos</a></li>
+      <li class="list-inline-item"><a href="#">Soporte</a></li>
+    </ul>
+  </footer>
+  <!--END FOOTER-->
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
