@@ -37,4 +37,9 @@ body {
   color: rgb(219, 169, 13);
 }
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
