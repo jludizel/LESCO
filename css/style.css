@@ -24,4 +24,9 @@ body {
   color: rgb(219, 169, 13);
 }
 
+.nav-link {
+  color: rgb(219, 169, 13);
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
