@@ -1,0 +1,12 @@
+{
+  "name": "lesco",
+  "version": "1.0.0",
+  "description": "Proyecto web de LESCO (Lengua de Señas Costarricense)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

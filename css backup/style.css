@@ -16,8 +16,6 @@ body {
   height: 100vh;
 }
 
-.nav-item .nav-link.fs-5 {
+nav-link fs-5 {
   color: rgb(219, 169, 13);
 }
-
-/*# sourceMappingURL=style.css.map */
