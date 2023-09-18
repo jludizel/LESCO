@@ -29,6 +29,10 @@ body {
   text-decoration: none;
 }
 
+.container-md .fs-1 {
+  color: rgb(219, 169, 13);
+}
+
 #item-1 {
   color: rgb(219, 169, 13);
 }
