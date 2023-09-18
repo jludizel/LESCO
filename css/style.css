@@ -29,4 +29,8 @@ body {
   text-decoration: none;
 }
 
+#item-1 span {
+  color: rgb(219, 169, 13);
+}
+
 /*# sourceMappingURL=style.css.map */
