@@ -45,7 +45,7 @@ body {
   height: 100px;
 }
 
-.btn {
+.btn.btn-default.active {
   color: rgb(219, 169, 13);
 }
 
