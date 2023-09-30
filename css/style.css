@@ -5,10 +5,6 @@
   list-style: none;
 }
 
-@font-face {
-  font-family: "Vintage Handmade";
-  src: url(../fonts/Vintage\ Handmade.ttf);
-}
 body {
   font-family: "Poppins", sans-serif;
   width: 100%;
